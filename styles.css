@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.indexbody{
+	background-color: lightblue;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.noindexbody {
+	background-color: lightblue;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gritem0 {
+	margin-top: 1vh;
+}
+
+.qorilogo {
+	height: 7vh;
+}
+
+.backImage {
+	background-image:url("imagenes/Despertador2.jpeg");
+	background-size: cover;
+	
+}
+
+.navBar {	
+	background-color: #6687ffb8;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul li a, .logo a {
+	text-decoration: none;
+	color: #000;
+	font-size: 2.8vw;
+	padding: 8px;
+}
+
+.activo{
+	color: red;
+}
+
+
+.navBar ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+
+.img-ndx-1 {
+	width: 100%;
+}
+
+.navBar ul li {
+		list-style-type: none;
+		margin: 0 1%;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 10px;
+	justify-items: center;
+	
+}
+
+.img-index-mob {
+	display: flex;
+
+}
+
+.img-index-mob img {
+	width: 40%;
+}
+
+
+.gritem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 95%;
+}
+
+.gritem p {
+	width: 90%;
+	text-align: center;
+	background-color: turquoise;
+	border-radius: 4px;
+	font-size: 3.5vw;
+	padding: 10px;
+}
+
+.gridtext1, .gridtext2 {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gridtext1 p, .gridtext2 p {
+	width: 90%;
+	text-align: left;
+	background-color: turquoise;
+	border-radius: 4px;
+	font-size: 3.5vw;
+	font-family: poppins;
+	font-weight: 300;
+	color: blue;
+	margin: 5px;
+	padding: 10px;
+}
+
+
+
+.titulos{
+	font-family: poppins;
+	font-weight: 700;
+	color: blue;
+	font-size: 3vh;
+	margin-top: 4vw;
+	text-align: center;
+}
+
+.textos, label, input {
+	font-family: poppins;
+	font-weight: 400;
+	color: blue;
+	margin: 15px;
+}
+
+
+.pieDePagina {
+	background-color: #6687ffb8;
+	text-align: center;
+	width: 100vw;
+	font-size: 4vw;	
+	margin-top: 20px;
+}
+
+
+.linkAdicional {
+	background-color: lightblue;
+	border: grey solid 3px;
+	border-radius: 4px;
+	margin: 3vw;
+	text-align: center;
+	padding: 1vw;
+}
+
+.linkAdicional a {
+	text-decoration: none;
+}
+
+.gritem img {
+	width: 90%;
+	object-fit: fill;
+	background-position: center;	
+	border: solid 3px royalblue;
+	border-radius: 4px;
+	flex-grow: 1;
+}
+
+.gridimg2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gridimg2 iframe {
+	width: 100%;
+	height: 100%;
+	border: blue solid 4px;
+	object-fit: cover;
+}
+
+.index_image {
+	width: 100%;
+
+}
+
+.gridcontainer-noindex {
+		display: grid;
+		grid-row-gap: 10px;
+		justify-items: center;
+}
+
+.otherImage {
+	width: 90%;
+	border: solid 3px royalblue;
+	border-radius: 4px;
+}
+
+.gridimg1 {
+	display: flex;
+	justify-content: center;
+	}
+
+.container-actuar-aprender {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+.acti1 .apri1 {
+	margin: auto;
+}
+
+.cont-form {
+	display: grid;
+	grid-template-columns:1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.imgform {
+	order: -1;
+	margin-top: 10px;
+}
+
+.formulario {
+	margin-top: 20px;
+}
+
+.formdiv {
+	border: solid grey 1px;
+	border-radius: 4px;
+	margin: 1vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cromo {
+	display: flex;
+	margin-left: 3vw;
+}
+
+
+
+/* --------------------------------MEDIA QUERY--------------------------------------- */
+
+@media (min-width: 768px) {
+
+	.grid-container {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-row-gap: 20px;
+		width: 100vw;
+		height: 85vh;
+		align-items: end;
+	}
+
+	.indexbody	{
+		height: 100vh;
+	}
+
+	.grid-container .gritem0 {
+		grid-area: 1 / 1 / 2 / 6;
+		margin-top: 1%;
+		height: 35vh;
+		background-image: url("imagenes/dandelion.jpg");
+		background-size: cover;
+		background-position: bottom;
+		position: relative;
+	}
+
+	.gritem0 .tituloindex {
+		position: absolute;
+		left: 2%;
+		bottom: 5%;
+		text-align: left;
+	}
+
+	.navBar ul li a {
+		font-size: 1.5vw;
+	}
+
+	.navBar {
+		flex-direction: row;
+	}
+
+
+	.gritem p {
+		font-size: 1vw;
+	}
+
+	.gridtext1 p, .gridtext2 p {
+		font-size: 1.5vh;
+	}
+
+	.gridtext1, .gridtext2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		height: 100%;
+
+	}
+
+	.gritem img {
+		height: 50%;
+	}
+
+	.pieDePagina {
+		font-size: 1vw;
+		position: absolute;
+		bottom: 0px;
+		height: 2vh;
+	
+	}
+
+	.gritem {
+		position: relative;
+		justify-content: space-evenly;
+		height: 100%;
+
+	}
+	.img-index-mob {
+		display: none;
+	}
+
+	.ultimafila {
+		border: solid blue 3px;
+	}
+
+	/* ---styles para páginas informativas (no index) ---- */
+
+	.gridcontainer-noindex {
+		display: grid;
+		border: black solid 4px;
+		margin-bottom: 2vh;
+		grid-row-gap: 10px;
+		justify-items: center;
+		grid-template-columns: 3fr 2fr 1fr ;
+		grid-template-rows: auto 1fr 1fr;
+		grid-template-areas:
+		"title title title"
+		"t1 t1 img1"
+		"t2 t2 img2";
+	}
+
+	.gridtitle {
+		grid-area: title;
+		margin-top: 20px;
+	}
+
+	.gridtext1 {
+		grid-area: t1;
+	}
+
+	.gridtext2 {
+		grid-area: t2;
+	}
+
+	.gridimg1 {
+		grid-area: img1;
+		margin-right: 2vw;
+		
+	}
+
+
+	.gridimg2 {
+		grid-area: img2;
+		width: 30vw;
+		margin-right: 2vw;
+	}
+
+	gridimg2 iframe {
+		width: 100%;
+		height: auto;
+		border: solid 3px royalblue;
+		border-radius: 4px;
+	}
+
+	.noindexbody {
+		background-color: lightblue;
+		min-height: 100vh;
+	}
+
+	.titulos{
+		margin-top: 1.5vw;
+	}
+
+	.linkcontainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		height: auto;
+	}
+
+	.otherImage {
+		margin: 2vw;
+		max-height: 40vh;
+		width: auto;
+
+	}
+
+	.container-actuar-aprender {
+		display: grid;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: 1fr auto;
+		justify-items: center;
+		grid-template-areas:
+			"t1 i1"
+			"t2 t2";
+	}
+	.actp1, .aprp1 {
+		grid-area: t1;
+		margin: 3vw;
+	}
+
+	.acti1, .apri1 {
+		grid-area: i1;
+	}
+
+	.actp2, .aprp2 {
+		grid-area: t2;
+		margin: 3vw;
+	}
+
+	.imgform {
+		order: 2;
+	}
+
+	.cont-form {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
+
+	.formdiv {
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+		border: solid grey 1px;
+		border-radius: 4px;
+		margin: 1vw;
+	}
+
+	.formulario .cromodiv {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+}
+
+	border: solid 3px royalblue;
+	border-radius: 4px;
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Despertar mundial</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="noindexbody">
+	<div class="navBar">
+		<div class="logo">
+			<a href="index.html"><img class="qorilogo" src="imagenes/logo_qori.svg" alt="logo qori"></a>
+		</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="conocimientox.html">El Juego</a></li>
+			<li><a href="aprender.html">Aprender</a></li>
+			<li><a href="actuar.html">Actuar</a></li>
+			<li><a href="contacto.html" class="activo">Contacto</a></li>
+		</ul>
+	</div>
+	<hr>
+	
+
+	<p class="titulos">Se parte de la Revolución. Ingresa tus coordenadas!</p>
+
+	<div class="cont-form">
+		<form class="formulario" action="" method="GET" enctype="">
+			<div class="formdiv">
+				<label>Nombre</label>
+				<input type="text" name="nombre">
+			</div>
+				
+			<div class="formdiv">
+				<label>Apellido</label>
+				<input type="text" name="apellido">
+			</div>
+			<div class="formdiv">
+				<label>Ingrese su mejor correo electrónico</label>
+				<input type="email" name="email">
+			</div>
+			<div class="formdiv cromodiv">
+				<label>Cromosomas</label>
+				<div class="cromo">
+					<input type="radio" name="sexo">
+					<label>XY (hombre)</label>
+				</div>
+				<div class="cromo">
+					<input type="radio" name="sexo">
+					<label>XX (mujer)</label>
+				</div>
+			</div>
+			<div class="formdiv">
+				<label>Actividades deseables</label>
+				<div>
+					<input type="checkbox" name="aprender">
+					<label>Aprender</label>
+				</div>
+				<div>
+					<input type="checkbox" name="enseñar">
+					<label>Enseñar</label>
+				</div>
+				<div>
+					<input type="checkbox" name="actuar">
+					<label>Actuar</label>
+				</div>
+			</div>
+			<div class="formdiv">
+				<label>Seleccion su disponibilidad de tiempo</label>
+				<select>
+					<option value="20%">20% de tu tiempo libre</option>
+					<option value="50%">Mitad</option>
+					<option value="100%">Fulltime</option>
+				</select>
+			</div>
+			<div class="formdiv">
+				<textarea placeholder="Ingrese información adicional que desee contarnos sobre usted" name="mensaje"></textarea>
+				<input type="submit" name="" value = "ENVIAR">
+			</div>
+		</form>
+		<img class="otherImage imgform" src="imagenes/light-bulbs.webp">
+	</div>
+	
+
+	<div class="linkcontainer">
+		<div class="linkAdicional"><a href="#">Grupo Telegram</a></div>
+		<div class="linkAdicional"><a href="#">Encuesta Global</a></div>
+	</div>
+	<hr>
+	<footer class="pieDePagina">Copywrite Libre. Esta web pertenece a la humanidad</footer>
+</body>
+</html>
