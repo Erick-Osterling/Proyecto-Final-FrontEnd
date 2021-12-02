@@ -83,19 +83,12 @@ ul li a, .logo a {
 
 .img-index-mob {
 	display: flex;
-
 }
-
-.img-index-mob img {
-	width: 40%;
-}
-
 
 .gritem {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	width: 95%;
 }
 
@@ -197,9 +190,9 @@ ul li a, .logo a {
 }
 
 .gridcontainer-noindex {
-		display: grid;
-		grid-row-gap: 10px;
-		justify-items: center;
+	display: grid;
+	grid-row-gap: 10px;
+	justify-items: center;
 }
 
 .otherImage {
@@ -253,8 +246,6 @@ ul li a, .logo a {
 	margin-left: 3vw;
 }
 
-
-
 /* --------------------------------MEDIA QUERY--------------------------------------- */
 
 @media (min-width: 768px) {
@@ -276,9 +267,12 @@ ul li a, .logo a {
 		grid-area: 1 / 1 / 2 / 6;
 		margin-top: 1%;
 		height: 35vh;
+		width: 100vw;
+		border: blueviolet solid 4px;
 		background-image: url("imagenes/dandelion.jpg");
 		background-size: cover;
-		background-position: bottom;
+		background-repeat: no-repeat;
+		background-position: center;
 		position: relative;
 	}
 
@@ -297,7 +291,6 @@ ul li a, .logo a {
 		flex-direction: row;
 	}
 
-
 	.gritem p {
 		font-size: 1vw;
 	}
@@ -312,11 +305,14 @@ ul li a, .logo a {
 		justify-content: start;
 		align-items: center;
 		height: 100%;
-
 	}
 
 	.gritem img {
 		height: 50%;
+	}
+
+	.img-index-mob {
+		display: none;
 	}
 
 	.pieDePagina {
@@ -324,17 +320,10 @@ ul li a, .logo a {
 		position: absolute;
 		bottom: 0px;
 		height: 2vh;
-	
 	}
 
 	.gritem {
-		position: relative;
-		justify-content: space-evenly;
 		height: 100%;
-
-	}
-	.img-index-mob {
-		display: none;
 	}
 
 	.ultimafila {
@@ -375,7 +364,6 @@ ul li a, .logo a {
 		margin-right: 2vw;
 		
 	}
-
 
 	.gridimg2 {
 		grid-area: img2;
@@ -458,11 +446,6 @@ ul li a, .logo a {
 		display: flex;
 		flex-direction: column;
 	}
-
-
 }
-
-	border: solid 3px royalblue;
-	border-radius: 4px;
 
 
