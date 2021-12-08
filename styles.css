@@ -51,6 +51,22 @@
 	
 }
 
+/* clases complementarias a bootstrap */
+
+.bootnavbar {
+	background: linear-gradient(to right, rgb(10, 194, 201), #6687ffb8);
+}
+
+.borde {
+	border: solid red 1px;
+}
+
+.navbar-brand {
+
+}
+
+/* fin de clases complementarias para bootstrap */
+
 .navBar {	
 	background: linear-gradient(to right, rgb(10, 194, 201), #6687ffb8);
 	width: 100vw;
