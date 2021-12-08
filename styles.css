@@ -45,6 +45,7 @@
 	100%{transform: rotatex(360deg);}
 }
 
+
 .backImage {
 	background-image:url("imagenes/Despertador2.jpeg");
 	background-size: cover;
@@ -57,12 +58,20 @@
 	background: linear-gradient(to right, rgb(10, 194, 201), #6687ffb8);
 }
 
+.bannerAlt {
+	height: 200px !important;
+}
+
 .borde {
 	border: solid red 1px;
 }
 
-.navbar-brand {
+.colorIndexp {
+	background-color: turquoise;
+}
 
+.colorAzul {
+	color: blue;
 }
 
 /* fin de clases complementarias para bootstrap */
@@ -129,6 +138,8 @@ ul li a:hover {
 	align-items: center;
 	width: 95%;
 }
+
+
 
 .gritem p {
 	width: 90%;
