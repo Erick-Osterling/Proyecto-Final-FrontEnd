@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
+
+/*
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
+*/
 .indexBody{
 	background-color: lightblue;
 	position: relative;
@@ -13,7 +15,7 @@
 	flex-direction: column;
 	align-items: center;
 }
-
+*/
 .noIndexBody {
 	background-color: lightblue;
 	position: relative;
@@ -21,11 +23,11 @@
 	flex-direction: column;
 	align-items: center;
 }
-
+/*
 .gritem0 {
 	margin-top: 1vh;
 }
-
+*/
 .qoriLogo {
 	height: 7vh;
 }
@@ -36,7 +38,7 @@
 	animation-duration: 150ms;
 	animation-timing-function: ease-in-out;
 }
-
+/*
 @keyframes fliping {
 	0% {transform: rotatex(0deg);}
 	25%{transform: rotatex(90deg);}
@@ -44,7 +46,7 @@
 	75%{transform: rotatex(270deg);}
 	100%{transform: rotatex(360deg);}
 }
-
+*/
 
 .backImage {
 	background-image:url("imagenes/Despertador2.jpeg");
@@ -59,23 +61,23 @@
 }
 
 .bannerAlt {
-	height: 200px !important;
+	height: 400px !important;
+	object-fit: cover;
 }
 
 .borde {
 	border: solid red 1px;
 }
 
-.colorIndexp {
-	background-color: turquoise;
-}
 
 .colorAzul {
 	color: blue;
 }
 
+
 /* fin de clases complementarias para bootstrap */
 
+/*
 .navBar {	
 	background: linear-gradient(to right, rgb(10, 194, 201), #6687ffb8);
 	width: 100vw;
@@ -299,9 +301,11 @@ ul li a:hover {
 	display: flex;
 	margin-left: 3vw;
 }
+*/
 
 /* --------------------------------MEDIA QUERY--------------------------------------- */
 
+/*
 @media (min-width: 768px) {
 
 	.grid-container {
@@ -312,10 +316,13 @@ ul li a:hover {
 		height: 85vh;
 		align-items: end;
 	}
+*/
 
 	.indexBody	{
-		height: 100vh;
+		min-height: 100vh;
 	}
+
+/*
 
 	.grid-container .gritem0 {
 		grid-area: 1 / 1 / 2 / 6;
@@ -383,9 +390,9 @@ ul li a:hover {
 	.ultimafila {
 		border: solid blue 3px;
 	}
-
+	*/
 	/* ---styles para páginas informativas (no index) ---- */
-
+	/*
 	.gridContainer-noIndex {
 		display: grid;
 		border: black solid 4px;
@@ -431,12 +438,12 @@ ul li a:hover {
 		border: solid 3px royalblue;
 		border-radius: 4px;
 	}
-
+*/
 	.noIndexBody {
 		background-color: lightblue;
 		min-height: 100vh;
 	}
-
+/*
 	.titulos{
 		margin-top: 1.5vw;
 	}
@@ -500,6 +507,6 @@ ul li a:hover {
 		display: flex;
 		flex-direction: column;
 	}
-}
+*/
 
 

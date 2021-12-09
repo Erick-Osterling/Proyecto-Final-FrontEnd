@@ -7,7 +7,13 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<title>Actúa y cambia</title>
 </head>
-<body class="noIndexBody">
+
+<!-- por favor, necesito saber por qué sucede algo con respecto a las clases del body. estaba tratando de de hacer que el footer quede abajo siempre, pero 
+no lo lograba, hasta que para ver el tamaño del body, decidí ponerle la clase "borde" y con eso, mágicamente, ahora funciona perfecto. ¿Por qué puede ser?
+es decir, si le borras esa clase, y luego minimizas la pestaña en la web y haces que sea un poco más angosta, el footer ya no queda abajo, pero la clase
+borde, aplicada, si. No comprendo a qué se debe- En index si funciona bien-->
+
+<body class="noIndexBody position-relative borde"> 
 	<nav class="navbar navbar-expand-lg navbar-light bootnavbar container-fluid">
 		<div class="container-fluid">
 		  <a class="navbar-brand" href="#"><img class="qoriLogo" src="imagenes/logo_qori.svg" alt="logo qori"></a>
@@ -25,15 +31,17 @@
 		  </div>
 		</div>
 	</nav>
-	<hr>
-	<div class="container row">
-		<h2 class="text-center colorAzul borde">Actua con Qori!</h2>
+	
+	<div class="container-fluid mt-md-5 mt-3">
+		<div class="row">
+			<h2 class="text-center colorAzul">Actua con Qori!</h2>
+		</div>
 	</div>
 	
 	
 	<div class="container-md colorAzul">
 		<div class="row mt-5 justify-content-between">
-			<p class="col-md-5 borde">Esta es la pestaña sobre cómo podemos aportar y actuar para favorecer el cambio. Se puede actuar de muchas maneras. 
+			<p class="col-md-5">Esta es la pestaña sobre cómo podemos aportar y actuar para favorecer el cambio. Se puede actuar de muchas maneras. 
 			De la mejor manera pra salir adelante. ¿Cual es la mejor manera para que salgamos adelante? Lo primero será sabotear el sistema actual el 
 			cual depende de nuestro consumo. Vuélvete un hermitaño. Consume lo menos posible. Adicionalmente, si vas a consumir algo, consume algo que 
 			no pertenezca a una transnacional ya que solo contribuirás con su monopolio. Si es posible, consume algo de gente de la localidad o de la 
@@ -49,12 +57,14 @@
 		
 
 	</div>	
-	<div class="linkContainer">
-		<div class="linkAdicional"><a href="#">Enseñar conocimiento "prohibido"</a></div>
-		<div class="linkAdicional"><a href="#">Trabajar en Qori</a></div>
-		<div class="linkAdicional"><a href="#">Como ser un ciudadano ejemplar</a></div>
+	<div class="container-md mt-md-5 mt-3 mb-5">
+		<div class="row col-8 mx-auto justify-content-between">
+			<div class="col-md-3 col-7 mx-auto my-2 text-center border border-4 border-secondary p-md-3 p-2"><a class="text-decoration-none" href="#">Enseñar conocimiento "prohibido"</a></div>
+			<div class="col-md-3 col-7 mx-auto my-2 text-center border border-4 border-secondary p-md-3 p-2"><a class="text-decoration-none" href="#">Trabajar en Qori</a></div>
+			<div class="col-md-3 col-7 mx-auto my-2 text-center border border-4 border-secondary p-md-3 p-2"><a class="text-decoration-none" href="#">Como ser un ciudadano ejemplar</a></div>
+		</div>
 	</div>
-	<hr>
+	
 	<div class="container-fluid position-absolute bottom-0 bg-info">
 		<div class="row col-12">
 			<footer class="text-center">Copywrite Libre. Esta web pertenece a la humanidad</footer>
