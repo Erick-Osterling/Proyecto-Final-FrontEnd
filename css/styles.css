@@ -9,7 +9,6 @@
 }
 */
 .indexBody{
-	background-color: lightblue;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -49,9 +48,8 @@
 */
 
 .backImage {
-	background-image:url("imagenes/Despertador2.jpeg");
+	background-image:url("../imagenes/Despertador2.jpeg");
 	background-size: cover;
-	
 }
 
 /* clases complementarias a bootstrap */
