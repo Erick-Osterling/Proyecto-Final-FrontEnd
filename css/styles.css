@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-
-/*
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-*/
-.indexBody{
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-*/
+
 .noIndexBody {
 	background-color: lightblue;
 	position: relative;
@@ -22,11 +13,11 @@
 	flex-direction: column;
 	align-items: center;
 }
-/*
+
 .gritem0 {
 	margin-top: 1vh;
 }
-*/
+
 .qoriLogo {
 	height: 7vh;
 }
@@ -37,7 +28,7 @@
 	animation-duration: 150ms;
 	animation-timing-function: ease-in-out;
 }
-/*
+
 @keyframes fliping {
 	0% {transform: rotatex(0deg);}
 	25%{transform: rotatex(90deg);}
@@ -45,7 +36,7 @@
 	75%{transform: rotatex(270deg);}
 	100%{transform: rotatex(360deg);}
 }
-*/
+
 
 .backImage {
 	background-image:url("../imagenes/Despertador2.jpeg");
@@ -72,10 +63,16 @@
 	color: blue;
 }
 
+.bannerTextPos {
+	position: absolute;
+	bottom: 10%;
+	left: 3%;
+}
+
 
 /* fin de clases complementarias para bootstrap */
 
-/*
+
 .navBar {	
 	background: linear-gradient(to right, rgb(10, 194, 201), #6687ffb8);
 	width: 100vw;
@@ -172,13 +169,10 @@ ul li a:hover {
 
 
 
-.titulos{
+.fonts{
 	font-family: poppins;
 	font-weight: 700;
 	color: blue;
-	font-size: 3vh;
-	margin-top: 4vw;
-	text-align: center;
 }
 
 .textos, label, input {
@@ -251,8 +245,6 @@ ul li a:hover {
 
 .otherImage {
 	width: 90%;
-	border: solid 3px royalblue;
-	border-radius: 4px;
 }
 
 .gridImg1 {
@@ -299,11 +291,11 @@ ul li a:hover {
 	display: flex;
 	margin-left: 3vw;
 }
-*/
+
 
 /* --------------------------------MEDIA QUERY--------------------------------------- */
 
-/*
+
 @media (min-width: 768px) {
 
 	.grid-container {
@@ -314,13 +306,13 @@ ul li a:hover {
 		height: 85vh;
 		align-items: end;
 	}
-*/
+
 
 	.indexBody	{
 		min-height: 100vh;
 	}
 
-/*
+
 
 	.grid-container .gritem0 {
 		grid-area: 1 / 1 / 2 / 6;
@@ -388,41 +380,9 @@ ul li a:hover {
 	.ultimafila {
 		border: solid blue 3px;
 	}
-	*/
+	
 	/* ---styles para páginas informativas (no index) ---- */
-	/*
-	.gridContainer-noIndex {
-		display: grid;
-		border: black solid 4px;
-		margin-bottom: 2vh;
-		grid-row-gap: 10px;
-		justify-items: center;
-		grid-template-columns: 3fr 2fr 1fr ;
-		grid-template-rows: auto 1fr 1fr;
-		grid-template-areas:
-		"title title title"
-		"t1 t1 img1"
-		"t2 t2 img2";
-	}
-
-	.gridTitle {
-		grid-area: title;
-		margin-top: 20px;
-	}
-
-	.gridText1 {
-		grid-area: t1;
-	}
-
-	.gridText2 {
-		grid-area: t2;
-	}
-
-	.gridImg1 {
-		grid-area: img1;
-		margin-right: 2vw;
-		
-	}
+	
 
 	.gridImg2 {
 		grid-area: img2;
@@ -436,12 +396,12 @@ ul li a:hover {
 		border: solid 3px royalblue;
 		border-radius: 4px;
 	}
-*/
+
 	.noIndexBody {
 		background-color: lightblue;
 		min-height: 100vh;
 	}
-/*
+
 	.titulos{
 		margin-top: 1.5vw;
 	}
@@ -505,6 +465,3 @@ ul li a:hover {
 		display: flex;
 		flex-direction: column;
 	}
-*/
-
-
