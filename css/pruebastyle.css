@@ -1,0 +1,21 @@
+.borde {
+	border: solid red 1px;
+}
+
+.hijo{
+   font-size: 40px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contPrueba{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgPrueba {
+
+
+}
