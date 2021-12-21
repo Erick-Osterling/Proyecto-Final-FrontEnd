@@ -1,0 +1,6 @@
+@mixin paragraphs ($br: 4px) {
+    font-family: poppins, sans-serif;
+    background-color: $colNav1;
+    color: blue;
+    border-radius: $br;
+}
