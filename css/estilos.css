@@ -29,13 +29,13 @@ div .bannerTextPos {
   bottom: 10%;
   left: 3%; }
 
-.stdPara, h3 {
+.stdPara, h2 {
   font-family: poppins, sans-serif;
   background-color: #0ac2c9;
   color: blue;
   border-radius: 4px; }
 
-h3 {
+h2 {
   font-weight: 700; }
 
 .pieDePagina {

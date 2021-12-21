@@ -43,7 +43,7 @@ div{
     @include paragraphs;
 }
 
-h3{
+h2{
     @extend .stdPara;
     font-weight: map-get($fontWeight,fuerte);
 }
