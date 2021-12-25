@@ -1,15 +1,12 @@
-@mixin paragraphs ($fw: normal , $br: $br-std, $bgCol: $colNav1) {
-    font-family: poppins, sans-serif;
+@mixin paragraphs ($fw: normal, $bgCol: $colNav1, $pad: 0.8em) {
     background-color: $bgCol;
-    color: $coltext;
-    border-radius: $br;
     font-weight: map-get($fontWeight, $fw);
-    padding: 0.8em;
+    padding: $pad;
 }
 
-@mixin borde ($borCol: $colBord, $br:0.5em)  {
+@mixin borde ($borCol: $colBordImg, $br:0.5em, $bw: 0.25em)  {
     border-color: $borCol;
     border-radius: $br;
     border-style: solid;
-    border-width: $br/2;
+    border-width: $bw;
 }
