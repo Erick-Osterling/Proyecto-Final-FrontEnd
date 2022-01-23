@@ -9,7 +9,7 @@ body {
   body.noIndexBody {
     background-color: lightblue; }
   body.backImage {
-    background-image: url("../imagenes/Despertador2.jpeg");
+    background-image: url("../imagenes/Despertador.jpeg");
     background-size: cover; }
   body nav.fontNav {
     font-size: 1.2rem; }
@@ -86,7 +86,10 @@ body {
       color: rgba(255, 51, 0, 0.877); }
   body footer.pieDePagina {
     background-color: #6687ffb8;
-    text-align: center; }
+    text-align: center;
+    color: black; }
+  body footer .footDiv {
+    display: inline; }
 
 @keyframes fliping {
   0% {

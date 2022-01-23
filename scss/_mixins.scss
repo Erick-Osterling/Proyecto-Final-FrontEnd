@@ -4,7 +4,7 @@
     padding: $pad;
 }
 
-@mixin borde ($borCol: $colBordImg, $br:0.5em, $bw: 0.25em)  {
+@mixin borde ($borCol: $colBordImg, $br:0.5em, $bw: 0.25em)   {
     border-color: $borCol;
     border-radius: $br;
     border-style: solid;
